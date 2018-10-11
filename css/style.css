@@ -277,11 +277,16 @@ color:#5e4fff;
 
 }
 
+
  input:checked ~ label img {
 	opacity: 1;
   }
+.wrapper label img:hover{
+	cursor: pointer;
+}
  label:hover ~ label img {
 	opacity: 1;
+	
 	
   } 
 
@@ -301,6 +306,7 @@ color:#5e4fff;
 .form-size label{
 	margin-left: 26px;
 	cursor: pointer;
+	border: 1px solid transparent;
 }
 .form-size{
 	margin-left: -24px;
@@ -308,7 +314,7 @@ color:#5e4fff;
 }
   
 	.form-size input:checked + label{
-	 border:1px solid#000;
+	 border: 1px solid#000;
   }
   
   .ba-button__cart button{
